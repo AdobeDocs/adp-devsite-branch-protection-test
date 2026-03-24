@@ -1,5 +1,5 @@
 - pathPrefix:
-    - /dev-docs-template/
+    - /branch-protection-test/
 
 - pages:
     - [Analytics](index.md)
