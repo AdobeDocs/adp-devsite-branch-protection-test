@@ -27,8 +27,13 @@ fi
 git commit -m "test: remove auto-generated files to trigger deploy workflow push"
 git push -u origin "$BRANCH"
 
-gh pr create --title "test: remove auto-generated files" --body "Triggers deploy workflow to re-generate and push contributors.json and adp-site-metadata.json." --base main --head "$BRANCH"
-gh pr merge "$BRANCH" --squash --delete-branch
+PR_URL=$(gh pr create --title "test: remove auto-generated files" --body "Triggers deploy workflow to re-generate and push contributors.json and adp-site-metadata.json." --base main --head "$BRANCH")
+echo "PR created: $PR_URL"
+
+echo "Waiting for checks to pass..."
+gh pr checks "$BRANCH" --watch --interval 10
+
+gh pr merge "$BRANCH" --squash --delete-branch || gh pr merge "$BRANCH" --squash --delete-branch --auto
 
 git checkout main
 git pull
