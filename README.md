@@ -1,1 +1,1 @@
-Test content repo mirroring the branch protection rules of AdobeDocs/commerce-pwa-studio.
+Test content repository mirroring the branch protection rules of AdobeDocs commerce repos (e.g. [commerce-php](https://github.com/AdobeDocs/commerce-php/settings), [commerce-pwa-studio](https://github.com/AdobeDocs/commerce-pwa-studio/settings)).
