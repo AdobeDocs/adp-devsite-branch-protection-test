@@ -7,6 +7,9 @@ FILES=("src/pages/contributors.json" "src/pages/adp-site-metadata.json")
 git checkout main
 git pull
 
+git branch -D "$BRANCH" 2>/dev/null || true
+git push origin --delete "$BRANCH" 2>/dev/null || true
+
 git checkout -b "$BRANCH"
 
 DELETED=0
