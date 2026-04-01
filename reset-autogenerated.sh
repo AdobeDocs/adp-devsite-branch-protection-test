@@ -33,11 +33,8 @@ git push -u origin "$BRANCH"
 PR_URL=$(gh pr create --title "test: remove auto-generated files" --body "Triggers deploy workflow to re-generate and push contributors.json and adp-site-metadata.json." --base main --head "$BRANCH")
 echo "PR created: $PR_URL"
 
-echo "Waiting for checks to pass..."
-gh pr checks "$BRANCH" --watch --interval 10
-
-gh pr merge "$BRANCH" --squash --delete-branch || gh pr merge "$BRANCH" --squash --delete-branch --auto
-
 git checkout main
-git pull
 git branch -d "$BRANCH" 2>/dev/null || true
+
+echo ""
+echo "Merge the PR to trigger the deploy: $PR_URL"
