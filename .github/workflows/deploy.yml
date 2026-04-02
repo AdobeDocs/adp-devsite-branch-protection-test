@@ -26,6 +26,7 @@ on:
 jobs:
   deployment:
     name: Deployment
+    if: github.actor != 'adp-devsite-app[bot]'
     uses: AdobeDocs/adp-devsite-workflow/.github/workflows/deploy.yml@test-auto-generate-files-on-deploy
     secrets:
       ADP_DEVSITE_APP_ID: ${{ secrets.ADP_DEVSITE_APP_ID }}
