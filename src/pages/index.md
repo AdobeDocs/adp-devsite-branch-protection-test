@@ -9,7 +9,7 @@ contributors:
 
 # Analytics API 
 
-Test 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend ornare purus, vel dapibus augue suscipit in. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend ornare purus, vel dapibus augue suscipit in. 
 
 <Resources slots="heading, links"/>
 
