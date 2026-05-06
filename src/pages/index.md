@@ -41,7 +41,7 @@ Donec tincidunt turpis in congue vulputate. Suspendisse potenti. Phasellus feugi
 
 ### Guides
 
-[Calculated Metrics API](guides/dummy_metrics_api/index.md)
+[Calculated Metrics API](guides/index.md)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend ornare purus, vel dapibus augue suscipit in. Nam blandit vitae ante et auctor. Donec placerat egestas posuere. Aliquam erat volutpat. In condimentum massa eu pharetra porta. Nunc tempus massa sit amet nisl posuere sagittis. Mauris sit amet rhoncus neque. Phasellus ut vulputate est, vel auctor metus.
 
@@ -50,7 +50,7 @@ Donec tincidunt turpis in congue vulputate. Suspendisse potenti. Phasellus feugi
 
 <DiscoverBlock slots="link, text"/>
 
-[Segments API](guides/dummy_oauth_client/index.md)
+[Segments API](guides/index.md)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend ornare purus, vel dapibus augue suscipit in. Nam blandit vitae ante et auctor. Donec placerat egestas posuere. Aliquam erat volutpat. In condimentum massa eu pharetra porta. Nunc tempus massa sit amet nisl posuere sagittis. Mauris sit amet rhoncus neque. Phasellus ut vulputate est, vel auctor metus.
 
@@ -58,7 +58,7 @@ Donec tincidunt turpis in congue vulputate. Suspendisse potenti. Phasellus feugi
 
 <DiscoverBlock slots="link, text"/>
 
-[Reporting Guide API](guides/dummy_using_postman/index.md)
+[Reporting Guide API](guides/index.md)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend ornare purus, vel dapibus augue suscipit in. Nam blandit vitae ante et auctor. Donec placerat egestas posuere. Aliquam erat volutpat. In condimentum massa eu pharetra porta. Nunc tempus massa sit amet nisl posuere sagittis. Mauris sit amet rhoncus neque. Phasellus ut vulputate est, vel auctor metus.
 
@@ -66,7 +66,7 @@ Donec tincidunt turpis in congue vulputate. Suspendisse potenti. Phasellus feugi
 
 <DiscoverBlock slots="link, text"/>
 
-[Migrating from 1.4 to 2.0](guides/migrating/index.md)
+[Migrating from 1.4 to 2.0](guides/index.md)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend ornare purus, vel dapibus augue suscipit in. Nam blandit vitae ante et auctor. Donec placerat egestas posuere. Aliquam erat volutpat. In condimentum massa eu pharetra porta. Nunc tempus massa sit amet nisl posuere sagittis. Mauris sit amet rhoncus neque. Phasellus ut vulputate est, vel auctor metus.
 
@@ -76,7 +76,7 @@ Donec tincidunt turpis in congue vulputate. Suspendisse potenti. Phasellus feugi
 
 ### API References
 
-[Try the API](api/index.md)
+[Try the API](guides/index.md)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend ornare purus, vel dapibus augue suscipit in. Nam blandit vitae ante et auctor. Donec placerat egestas posuere. Aliquam erat volutpat. In condimentum massa eu pharetra porta. Nunc tempus massa sit amet nisl posuere sagittis. Mauris sit amet rhoncus neque. Phasellus ut vulputate est, vel auctor metus.
 
